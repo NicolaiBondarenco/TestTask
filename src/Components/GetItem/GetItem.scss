@@ -1,0 +1,36 @@
+.getItem {
+  position: relative;
+  max-width: 332px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  &__image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    align-items: center;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  &__name,
+  &__position,
+  &__email,
+  &__phone {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+  }
+  &__name {
+    margin-bottom: 20px;
+  }
+  &__email {
+    cursor: pointer;
+  }
+  @media (max-width: 545px) {
+    min-width: 286px;
+    margin: 0 auto;
+  }
+}

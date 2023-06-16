@@ -1,0 +1,32 @@
+.uploadPhoto {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 49px;
+  &__btn {
+    border: 1px solid rgba(0, 0, 0, 0.87);
+    border-radius: 4px 0px 0px 4px;
+    padding: 13px 14px;
+  }
+  &__file {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    opacity: 0;
+    display: block;
+    width: 83px;
+    height: 51px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  &__input {
+    width: 73%;
+    border: 1px solid #d0cfcf;
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 15px 0 14px 16px;
+    outline: none;
+    color: #7e7e7e;
+  }
+}

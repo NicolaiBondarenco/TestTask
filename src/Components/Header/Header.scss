@@ -1,0 +1,26 @@
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 13px 0 9px;
+  background-color: #fff;
+  &__container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    & a {
+      padding-top: 3px;
+    }
+    @media (max-width: 1024px) {
+      padding: 0 60px;
+    }
+    @media (max-width: 768px) {
+      padding: 0 32px;
+    }
+    @media (max-width: 545px) {
+      padding: 0 16px;
+    }
+  }
+}

@@ -1,0 +1,68 @@
+.form {
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  &__data {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    &-name,
+    &-email,
+    &-phone {
+      position: absolute;
+      color: #cb3d40;
+    }
+    &-name {
+      left: 17px;
+      top: 55px;
+    }
+    &-email {
+      left: 17px;
+      top: 160px;
+    }
+    &-phone {
+      left: 17px;
+      top: 275px;
+    }
+    &-subtitle {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #7e7e7e;
+      margin: 3px 0 3px 16px;
+    }
+  }
+  &__position {
+    width: 100%;
+    margin: 22px 0 39px 0;
+    display: flex;
+    flex-direction: column;
+    &-title {
+      font-weight: 400;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    &-inner {
+      margin-bottom: 7px;
+      & label {
+        margin-left: 11px;
+      }
+    }
+  }
+  &__btn {
+    background: #b4b4b4;
+    border-radius: 80px;
+    width: 100px;
+    padding: 4px;
+    border: none;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+  }
+  @media (max-width: 545px) {
+    max-width: 328px;
+  }
+}

@@ -1,0 +1,8 @@
+.error {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 100px;
+  & img {
+    border-radius: 50%;
+  }
+}

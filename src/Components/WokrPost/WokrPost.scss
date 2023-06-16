@@ -1,0 +1,16 @@
+.workPost {
+  &__title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 26px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 56px;
+    @media (max-width: 545px) {
+      display: block;
+      max-width: 250px;
+      margin: 0 auto 53px;
+      line-height: 38px;
+    }
+  }
+}
