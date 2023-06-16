@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TestTask/static/css/main.26d21a88.css",
+    "main.js": "/TestTask/static/js/main.f6aee70a.js",
+    "static/media/pexels-alexandr-podvalny-1227513.jpeg": "/TestTask/static/media/pexels-alexandr-podvalny-1227513.be7665f876bbd9138501.jpeg",
+    "static/media/Logo.svg": "/TestTask/static/media/Logo.8bb55362d01d55393ccc5476d96f0c14.svg",
+    "index.html": "/TestTask/index.html",
+    "main.26d21a88.css.map": "/TestTask/static/css/main.26d21a88.css.map",
+    "main.f6aee70a.js.map": "/TestTask/static/js/main.f6aee70a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26d21a88.css",
+    "static/js/main.f6aee70a.js"
+  ]
+}
