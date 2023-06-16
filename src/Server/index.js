@@ -2,9 +2,6 @@ export const getUsers = async (page) => {
   const response = await fetch(
     `https://frontend-test-assignment-api.abz.agency/api/v1/users?page=${page}&count=6`,
   )
-  if (!response.ok) {
-    throw new Error('Failed to fetch users')
-  }
   return await response.json()
 }
 
@@ -12,9 +9,6 @@ export const getPositions = async () => {
   const response = await fetch(
     `https://frontend-test-assignment-api.abz.agency/api/v1/positions`,
   )
-  if (!response.ok) {
-    throw new Error('Failed to fetch Positions')
-  }
   return await response.json()
 }
 
@@ -38,9 +32,6 @@ export const postData = async (name, email, phone, position_id, file) => {
       body: formData,
     },
   )
-  if (!response.ok) {
-    throw new Error('Failed to post users')
-  }
   return await response.json()
 }
 
